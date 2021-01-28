@@ -1,0 +1,23 @@
+<html>
+<head xmlns:th="https://www.thymeleaf.org">
+
+<title>Home Page</title></head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<body>
+<h1>Hello !</h1>
+<p>Welcome to <span th:text="${appName}">Our App</span></p>
+
+
+
+<h3><a th:href="@{/login}">Login</a></h3>
+
+
+
+<h3><a th:href="@{/register}">Register</a></h3>
+
+
+</body>
+
+
+</html>

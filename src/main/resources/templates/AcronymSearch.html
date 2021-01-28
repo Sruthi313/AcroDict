@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p th:text="'Welcome : ' + ${user.emailID}"></p>
+
+<form th:action="@{/output}" th:object="${acronyms}" method="post">
+  
+
+ <p>Enter your Acronym: <input type="text" field="*{acronym}" name="acronym"></p></br></br>
+ 
+ 
+  <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
